@@ -1,1 +1,35 @@
+version: '3.13'
+
+services:
+  app:
+    build: .
+    container_name: data_pipeline_app
+    ports:
+      - "3000:3000"  # Dagster Web UI
+      - "8000:8000"  # FastAPI if applicable
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+    environment:
+      - POSTGRES_HOST=db
+      - POSTGRES_DB=telegram_data
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+
+  db:
+    image: postgres:15
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_DB: telegram_data
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
 
