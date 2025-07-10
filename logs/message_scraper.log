@@ -1,0 +1,13 @@
+2025-07-10 11:56:52,674 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-10 11:56:52,821 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-10 11:56:54,204 - INFO - Start scraping channel: https://t.me/CheMed123
+2025-07-10 11:56:55,164 - INFO - \u2705 Saved 63 messages from https://t.me/CheMed123 to c:\Users\user\Desktop\tasks\End_To_End_Medical_Intelligence_Platform\scripts\data\raw\telegram_messages\2025-07-10\CheMed123.json
+2025-07-10 11:56:55,172 - INFO - Start scraping channel: https://t.me/lobelia4cosmetics
+2025-07-10 11:56:55,886 - INFO - \u2705 Saved 98 messages from https://t.me/lobelia4cosmetics to c:\Users\user\Desktop\tasks\End_To_End_Medical_Intelligence_Platform\scripts\data\raw\telegram_messages\2025-07-10\lobelia4cosmetics.json
+2025-07-10 11:56:55,886 - INFO - Start scraping channel: https://t.me/tikvahpharma
+2025-07-10 11:56:56,915 - INFO - \u2705 Saved 96 messages from https://t.me/tikvahpharma to c:\Users\user\Desktop\tasks\End_To_End_Medical_Intelligence_Platform\scripts\data\raw\telegram_messages\2025-07-10\tikvahpharma.json
+2025-07-10 11:56:56,915 - INFO - Start scraping channel: https://t.me/ethiopianfoodanddrugauthority
+2025-07-10 11:56:57,604 - INFO - \u2705 Saved 35 messages from https://t.me/ethiopianfoodanddrugauthority to c:\Users\user\Desktop\tasks\End_To_End_Medical_Intelligence_Platform\scripts\data\raw\telegram_messages\2025-07-10\ethiopianfoodanddrugauthority.json
+2025-07-10 11:56:57,605 - INFO - \U0001f3af All message scraping tasks finished successfully.
+2025-07-10 11:56:57,613 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-10 11:56:57,614 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
