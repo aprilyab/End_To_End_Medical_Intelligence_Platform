@@ -1,1 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+
+.env
+.env.*
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# DBT target and compiled files
+dbt_modules/
+target/
+dbt_packages/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VSCode or PyCharm settings
+.vscode/
+.idea/
+
+# Test, coverage, cache
+.coverage
+.cache/
+pytest_cache/
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# YOLOv8/Ultralytics cache or outputs
+runs/
+weights/
+ultralytics/cfg/
+
+# PostgreSQL data (if used locally)
+postgres_data/
+
+# Dagster local storage
+dagster_home/
+
+# Python environment lock files (optional)
+poetry.lock
+Pipfile.lock
 
