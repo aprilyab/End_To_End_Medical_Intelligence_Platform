@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Raw schema with external ingested data"
+    tables:
+      - name: yolo_detections
+        description: "Detections from YOLOv8 object detection"
+
+models:
+  - name: fct_image_detections
+    description: "Links detected objects from YOLO to Telegram messages."
+    columns:
+      - name: message_id
+        description: "Foreign key to fct_messages.telegram_message_id"
+        tests:
+          - not_null
+      - name: detected_object_class
+        description: "Name of object detected in the image"
+        tests:
+          - not_null
+      - name: confidence_score
+        description: "Confidence score from YOLO model"
+      - name: detected_at
+        description: "Timestamp when the detection occurred"
