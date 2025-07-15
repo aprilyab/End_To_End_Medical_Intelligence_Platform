@@ -1,0 +1,4 @@
+[tool.dagster]
+module_name = "medical_pipeline"
+
+
